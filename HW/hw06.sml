@@ -37,7 +37,9 @@ fun show (m : model) : string =
     case m of
 	EnterName => "Please enter your name:"
       | Purchase(name,apples,bananas,cookies,amount) => "Hi, " ^ name ^ " What would you like to buy?\n apples $1/pound\n bananas $2/bunch\n cookies $2/box"
-      | Checkout(name,apples,bananas,cookies,amount) => "Hi, " ^ name ^ "\nYour cart contains " ^ intToString(apples) ^ " apples " ^ intToString(bananas) ^ " bananas " ^ intToString(cookies) ^ " cookies.\n" ^ "I will charge you $" ^ intToString(amount) ^ ".\n" ^ "Type 'pay' to pay."		
+      | Checkout(name,apples,bananas,cookies,amount) => "Hi, " ^ name ^ "\nYour cart contains " ^ intToString(apples) ^ " apples " ^ intToString(bananas) ^ 
+                                                        " bananas " ^ intToString(cookies) ^ " cookies.\n" ^ "I will charge you $" ^ intToString(amount) ^ 
+							".\n" ^ "Type 'pay' to pay."		
 
 (* TASK 3: write a function that updates the model based on user input *)
 
