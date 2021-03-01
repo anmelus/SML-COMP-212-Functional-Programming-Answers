@@ -7,3 +7,5 @@ Has almost all coding problems answered, sometimes there would be one very hard 
 Skipped anything asking to compute/prove the time complexity or recurrence of as I already have experience with proofs and timings in previous classes.
 
 On very small occasions I had to look online at someone else's code to completely understand what issue I was having which has resulted in a few changes in coding style towards the end of some assignments.
+
+The rest of the labs (7-9) and homeworks (7-10) are locked but the lectures were not so I studied Sequences + Functors + Machine Learning on my own. If anyone has the documents to the last few lectures, lab assignments, and homeworks I would greatly appreciate it so I can work them out on my own time!
